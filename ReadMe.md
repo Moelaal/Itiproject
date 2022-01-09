@@ -22,6 +22,11 @@ git merge dev
 
 
 
+////////// list tags \\\\\\\
+
+git tag --list
+
+
 ////////============\\\\\\\\
 
 delete branch remotly
@@ -31,3 +36,11 @@ git push <remote> --delete <branch>
 delete branch localy
 
 git branch -d <branch>
+
+///////// delete tags \\\\\\\\\
+
+delete remote tag
+git push origin --delete v1.7
+
+delete local tags
+git tag -d v1.7
